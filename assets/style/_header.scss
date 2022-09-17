@@ -1,0 +1,39 @@
+header.herohead {
+    background: url("../img/png/hero-header.png") no-repeat top center;
+    background-size: cover;
+    position: relative;
+    background-color: $bg;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    padding-top: 8.2rem;
+    padding-bottom: 8rem;
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header.herohead {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
